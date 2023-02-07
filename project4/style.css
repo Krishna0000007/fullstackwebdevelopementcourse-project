@@ -1,0 +1,94 @@
+*{
+   margin:0px;
+   padding:0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff8dc;
+    justify-content: space-between;
+    font-family: 'Aboreto', cursive;
+font-family: 'Lora', serif;
+font-family: 'Poppins', sans-serif;
+
+   
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+ul,li{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin: 15px;
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+    font: 600;
+}
+li{
+    text-decoration: none;
+}
+.logo{
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+.bt1
+{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+   
+}
+.btn1
+{
+    background-color: #0e0ecc;
+    padding: 10px 15px;
+    border:none;
+    color: #fff8dc;
+    border-radius: 5px;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    
+   
+}
+.hero-left-section{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+   
+    
+   
+}
+.hero-right-section{
+ width: 60%;
+}
+h1{
+    font-size: 70px;
+    margin-left: 30px;
+}
+p{
+    position: relative;
+    top: 20px;
+    margin-left: 30px;
+}
+.btn2{
+    position: relative;
+    margin-left: 30px;
+    top: 40px;
+    background-color: #0e0ecc;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 5px;
+    color: #fff8dc;
+}
+span{
+    color: navy;
+}
